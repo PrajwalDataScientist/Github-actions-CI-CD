@@ -51,4 +51,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/your-image-name:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/flask-ci-cd-app:latest
+
