@@ -5,4 +5,4 @@ COPY . /app
 RUN pip install flask
 EXPOSE 1234
 
-RUN ["python","app.py"]
+CMD ["python","app.py"]
